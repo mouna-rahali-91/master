@@ -22,6 +22,7 @@ public class Application {
     public CommandLineRunner init(UserDao userDao){
         return args -> {
             User user1 = new User();
+            // first commit 
             user1.setFirstName("Devglan");
             user1.setLastName("Devglan");
             user1.setSalary(12345);
